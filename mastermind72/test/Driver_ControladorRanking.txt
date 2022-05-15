@@ -1,0 +1,26 @@
+- Objecte de la prova:
+	Es comprova la classe de Domini "ControladorRanking", que és la utilitzada per transferir correctament
+	els Rankings de la capa de Domini a les capes de Presentació i Persistència.
+	Els casos d'ús involucrats són "Introduir Rècord" i "Consultar Rècords"
+	
+- Altres elements integrats:
+	S'utilitza la classe Ranking (que utilitza la classe Pair) i la classe ControladorPersistenciaRanking.
+
+- Drivers:
+	Per a aquesta prova hem creat el driver "Driver_ControladorRanking", el qual crea un objecte ControladorRanking
+	i fa diferents crides als mètodes de la classe per tal de verificar que tot funciona com s'espera.
+	
+- Fitxers de dades necessaris:
+	Classes Ranking, Pair i ControladorPersistenciaRanking.
+
+- Valors estudiats:
+	L'aplicació comença creant un objecte del tipus ControladorRanking al qual inserim valors en el seu Ranking Facil
+	i el seu Ranking Dificil. Amb cada inserció obtenim l'objecte de tipus Ranking associat per tal d'imprimir les
+	seves dades per pantalla i comprovar que s'actualitzen correctament.
+	
+- Efectes estudiats:
+	S'estudia el comportament de la classe "ControladorRanking" i el correcte funcionament dels mètodes d'aquesta classe.
+	
+- Operativa:
+	S'ha d'obrir l'executable i el Driver s'encarregarà de realitzar els test i imprimir els resultats
+	per la consola.

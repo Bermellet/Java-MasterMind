@@ -1,0 +1,32 @@
+- Objecte de la prova:
+	Es comprova la classe de Domini "CodiDificil", la qual s'utilitza internament per emmagatzemar
+	les combinacions de colors en dificultat facil, tant en la solució de la partida com en les jugades.
+	Els casos d'ús involucrats són "Introduir Solució" i "Introduir Jugada".
+
+- Altres elements integrats:
+	Ningun.
+
+- Drivers:
+	Per aquesta prova hem creat el driver "Driver_CodiDificil", el qual dóna valors a objectes de tipus
+	CodiDificil i fa diferents crides als mètodes de la classe per tal de verificar que tot funciona
+	com s'espera.
+	
+- Fitxers de dades necessaris:
+	Ningun.
+	
+- Valors estudiats:
+	L'aplicació comença creant dos objectes de tipus CodiDificil i els va assignant diferents valors per tal
+	de comparar-los i poder imprimir per pantalla tant els codis com les boles Blanques/Negres. Al final
+	d'aquestes proves s'inicialitzen els dos Codis amb valors aleatoris i es fa una última comparació.
+	Un cop comprovat que les comparacions es fan correctament, acabem de mostrar la correcta inicialització
+	dels objectes mitjançant la creadora per defecte i passant llistes que excedeixin o manquin de tamany
+	(el desitjat per aquesta dificultat és 6).
+	Finalment es mostra el tamany del codi per comprovar que és tal i com es desitja.
+	
+- Efectes estudiats:
+	S'estudia el comportament de les creadores de la classe "CodiDificil" i  el correcte funcionament dels
+	mètodes d'aquesta classe.
+	
+- Operativa:
+	S'ha d'obrir l'executable i el Driver s'encarregarà de realitzar els test i imprimir els resultats
+	per la consola.

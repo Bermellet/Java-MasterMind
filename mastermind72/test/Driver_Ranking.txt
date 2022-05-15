@@ -1,0 +1,30 @@
+- Objecte de la prova:
+	Es comprova la classe de Domini "Ranking", que és la utilitzada per guardar els rècords de les partides
+	que han estat finalitzades.
+	Els casos d'ús involucrats són "Introduir Rècord" i "Consultar Rècords"
+	
+- Altres elements integrats:
+	Aquest classe utilitza la nostra classe Pair per tal de guardar les dades dels rècords.
+	
+- Drivers:
+	Per a aquesta prova hem creat el driver "Driver_Ranking", el qual insereix rècords al seu objecte Ranking
+	i fa diferents crides als mètodes de la classe per tal de verificar que tot funciona com s'espera.
+
+- Fitxers de dades necessaris:
+	Classe Pair.
+	
+- Valors estudiats:
+	L'aplicació comença creant un objecte de tipus Ranking i va inserint valors, imprimint el Ranking per pantalla
+	per tal de demostrar que s'incereixen correctament i de manera ordenada. Tot seguit es mostra que té una
+	mida màxima de 10 (recorda les 10 millors puntuacions), que es pot comprovar si un rècord s'inseriria dondada una
+	puntuació determinada i que en cas d'igualtat en la puntuació es prioritza en els rècords més recents.
+	Finalment demostrem que es pot inicialitzar el Ranking carregant una llista de rècords i que el Ranking mantè
+	l'ordre i el limit de tamany.
+	
+- Efectes estudiats:
+	S'estudia el comportament de les creadores de la classe "Ranking" i el correcte funcionament dels
+	mètodes d'aquesta classe.
+
+- Operativa:
+	S'ha d'obrir l'executable i el Driver s'encarregarà de realitzar els test i imprimir els resultats
+	per la consola.
